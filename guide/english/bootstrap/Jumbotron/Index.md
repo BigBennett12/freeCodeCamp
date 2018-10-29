@@ -26,3 +26,5 @@ To make the jumbotron full width, and without rounded corners, add the .jumbotro
   </div>
 </div>
 ```
+
+Resource: http://getbootstrap.com/docs/4.1/components/jumbotron/
