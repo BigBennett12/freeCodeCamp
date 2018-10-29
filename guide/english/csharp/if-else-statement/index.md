@@ -19,9 +19,9 @@ else
 }
 
 
-int Price = 30;
+int price = 30;
 
-If (Price = 30)
+If (price = 30)
 {
   Console.WriteLine("Price is equal to 30.");
 }
@@ -33,6 +33,25 @@ Else
 ```
 
 Since we already declared our int Price to be 30, this will be the expected output.
+
+Also, if-else statements can contain multiple conditions/outcomes.  This requires the else-if statement as so:
+
+## Example
+```
+
+int price = 30;
+
+If (price == 30)
+  Console.WriteLine("Price is equal to 30.");
+
+Else If (price > 30)
+  Console.WriteLine("Price is greater than 30.");
+  
+Else 
+  Console.WriteLine("Price is less than 30.");
+```
+
+As a clean-code tip.. when writing if-else statements.. if the execution code is only one line then there is no need for curly brackets ('{}'), rather just a tab.
 
 ## Output
 ```
